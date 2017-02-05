@@ -15,7 +15,7 @@ card_defuse = { name: "Defuse", action: "Play this to stay alive."}
 card_nope ={ name: "Nope", action: "Cancel action."}
 card_cat = { name: "Catermelon", action: "Non-action card. Collect 2 or more to play."}
 
-puts "Your name"
+puts "Your gamer name?"
 player=gets
 cardPlayed = card_bomb[:name]
 puts "#{player} played a #{cardPlayed} card"
